@@ -1,7 +1,10 @@
 import './App.css';
+import { Wheel } from './components/Wheel';
 
 function App() {
-  return <>Hello world!</>;
+  return <>
+  <Wheel />
+  </>;
 }
 
 export default App;
